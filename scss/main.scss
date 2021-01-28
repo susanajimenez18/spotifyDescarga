@@ -1,4 +1,5 @@
 @import './_footer.scss';
+@import './_dispositivos.scss';
 
 *{
     box-sizing: border-box;
@@ -79,3 +80,77 @@ padding: 10px;
      color: white;
  }
 }
+
+//Estilos Antonio
+section.oscuroAnt{
+    background-color: $fondo;
+    .contenedorOscuroAnt{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        div.desktopAnt{
+            width: 100%;
+            max-width: 560px;
+            margin-bottom: 20px;
+            padding: 0px 40px;
+            .figuraAnt img{
+                width: 100%;
+            }
+        }
+        h3.tituloEscuchar{
+            box-sizing: border-box;
+            font-family: spotify-circular, Helvetica, Arial, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+            display: block;
+            padding: 0px 0px 0.75em;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 28px;
+            font-weight: 900;
+            letter-spacing: -0.25px;
+            line-height: 36px;
+            color: $colorBlanco;
+        }
+        div.contenedorListaAnt{
+            box-sizing: border-box;
+            font-family: spotify-circular, Helvetica, Arial, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            color: inherit;
+            ul{
+                list-style-type: disc;
+                display: block;
+                list-style-type: disc;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                padding-inline-start: 40px;
+                text-align: center;
+ 
+                span{
+                    box-sizing: border-box;
+                    font-family: Helvetica, Arial, sans-serif;
+                    -webkit-tap-highlight-color: transparent;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0px;
+                    color: inherit;
+                }
+            }
+        }
+    }
+}
+
